@@ -46,7 +46,7 @@ function ContactUs() {
     }
   
     try {
-      const response = await axios.post('http://localhost:5003/send-email', data, {
+      const response = await axios.post('https://construction-43ol.onrender.com/send-email', data, {
         headers: {
           'Content-Type': 'multipart/form-data',
         },
